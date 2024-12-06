@@ -1,0 +1,92 @@
+body{
+    /*background-color: darkgoldenrod;*/
+    background-image: url(./imagenes/Los_Minions.webp);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0px;
+    border:black 5px ; /*Borde requiere tres argumentos: Color - Estilo de borde- Espesor*/
+}
+
+.bloque-personaje{
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgb(240, 241, 152);
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.bloque-personaje-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.creador{
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: bisque;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+.bloque-personaje{
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgb(240, 241, 152);
+    width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+footer{
+    font-family: "Roboto", sans-serif;
+    margin-top: 60px;
+
+}
+
+.foto-principal{
+    width: 200px;
+    height: auto;
+    box-shadow: 5px 10px 10px rgb(178, 178, 178);
+}
+
+.menu-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
